@@ -12,6 +12,8 @@ using namespace std;
 
 #define REP(i,n) for(ll (i)=0;(i)<(n);(i)++)
 #define RREP(i,n) for(ll (i)=(n)-1;(i)>=0;(i)--)
+#define FOR(i,a,b) for(ll (i)=(a);(i)<(b);(i)++)
+#define FORR(i,a,b) for(ll (i)=(b)-1;(i)>=(a);(i)--)
 #define DEBUG(x) cout << #x << ": " << x << endl
 #define CHMAX(a,b) a=max((a),(b))
 #define CHMIN(a,b) a=min((a),(b))
@@ -19,6 +21,6 @@ using namespace std;
 int main() {
   ll n;
   cin >> n;
-  cout << ans << endl;
+  cout << ans<< endl;
   return 0;
 }
